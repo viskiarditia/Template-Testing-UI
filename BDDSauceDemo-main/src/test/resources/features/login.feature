@@ -6,7 +6,7 @@
 
   Scenario: Normal Login
     Given User open the website
-    When User input Username and Password
+    When User input Username and Password in page
     Then User already on landing page
 
 
