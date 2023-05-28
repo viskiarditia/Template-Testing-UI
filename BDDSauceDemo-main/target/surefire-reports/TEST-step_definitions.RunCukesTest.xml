@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="33" failures="0" name="step_definitions.RunCukesTest" time="0.643" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2022.3.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.351-b10"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/fizkiarditiakusuma/IdeaProjects/BDDSauceDemo"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/fizkiarditiakusuma/IdeaProjects/BDDSauceDemo"/>
+    <property name="java.runtime.version" value="1.8.0_351-b10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/nl/kl9228955pjdfy31l8yfjk700000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="maven.ext.class.path" value="/Users/fizkiarditiakusuma/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="/Users/fizkiarditiakusuma/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/fizkiarditiakusuma/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="maven.conf" value="/Users/fizkiarditiakusuma/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="13.1"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/fizkiarditiakusuma"/>
+    <property name="user.timezone" value="Asia/Jakarta"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="fizkiarditiakusuma"/>
+    <property name="java.class.path" value="/Users/fizkiarditiakusuma/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds.license:/Users/fizkiarditiakusuma/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar:/Users/fizkiarditiakusuma/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2022.3.1 test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_351"/>
+    <property name="java.ext.dirs" value="/Users/fizkiarditiakusuma/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_351.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="maven.home" value="/Users/fizkiarditiakusuma/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="Scenario: Normal Login" name="Given User open the website souce demo" time="0.007"/>
+  <testcase classname="Scenario: Normal Login" name="When User input &quot;standard_user&quot; as userName and input &quot;secret_sauce&quot; as pass" time="0"/>
+  <testcase classname="Scenario: Normal Login" name="Then User already on landing page" time="0"/>
+  <testcase classname="Scenario: Normal Login" name="Scenario: Normal Login" time="0.155"/>
+  <testcase classname="| standard_user |  | Epic sadface: Password is required |" name="Given User open the website souce demo" time="0"/>
+  <testcase classname="| standard_user |  | Epic sadface: Password is required |" name="When User input &quot;standard_user&quot; as userName and input &quot;&quot; as pass" time="0"/>
+  <testcase classname="| standard_user |  | Epic sadface: Password is required |" name="Then User see error &quot;Epic sadface: Password is required&quot; on login page" time="0"/>
+  <testcase classname="| standard_user |  | Epic sadface: Password is required |" name="| standard_user |  | Epic sadface: Password is required |" time="0.133"/>
+  <testcase classname="|  | secret_sauce | Epic sadface: Username is required |" name="Given User open the website souce demo" time="0"/>
+  <testcase classname="|  | secret_sauce | Epic sadface: Username is required |" name="When User input &quot;&quot; as userName and input &quot;secret_sauce&quot; as pass" time="0"/>
+  <testcase classname="|  | secret_sauce | Epic sadface: Username is required |" name="Then User see error &quot;Epic sadface: Username is required&quot; on login page" time="0"/>
+  <testcase classname="|  | secret_sauce | Epic sadface: Username is required |" name="|  | secret_sauce | Epic sadface: Username is required |" time="0.115"/>
+  <testcase classname="| 123salah | salah juga123 | Epic sadface: Username and password do not match any user in this service |" name="Given User open the website souce demo" time="0.001"/>
+  <testcase classname="| 123salah | salah juga123 | Epic sadface: Username and password do not match any user in this service |" name="When User input &quot;123salah&quot; as userName and input &quot;salah juga123&quot; as pass" time="0"/>
+  <testcase classname="| 123salah | salah juga123 | Epic sadface: Username and password do not match any user in this service |" name="Then User see error &quot;Epic sadface: Username and password do not match any user in this service&quot; on login page" time="0"/>
+  <testcase classname="| 123salah | salah juga123 | Epic sadface: Username and password do not match any user in this service |" name="| 123salah | salah juga123 | Epic sadface: Username and password do not match any user in this service |" time="0.109"/>
+  <testcase classname="Scenario: User make a purchase with 2 item" name="Given User open the website souce demo" time="0"/>
+  <testcase classname="Scenario: User make a purchase with 2 item" name="When User input &quot;standard_user&quot; as userName and input &quot;secret_sauce&quot; as pass" time="0"/>
+  <testcase classname="Scenario: User make a purchase with 2 item" name="Then User already on landing page" time="0"/>
+  <testcase classname="Scenario: User make a purchase with 2 item" name="Then User sort product list by &quot;Name (Z to A)&quot;" time="0"/>
+  <testcase classname="Scenario: User make a purchase with 2 item" name="And User choice 2 product from the list" time="0.001"/>
+  <testcase classname="Scenario: User make a purchase with 2 item" name="And User Click Product add to cart" time="0"/>
+  <testcase classname="Scenario: User make a purchase with 2 item" name="And User Click remove product to cart" time="0"/>
+  <testcase classname="Scenario: User make a purchase with 2 item" name="And User Click Check Out product" time="0.001"/>
+  <testcase classname="Scenario: User make a purchase with 2 item" name="When User input &quot;viski&quot; as firstNameCheckOut and input &quot;arditia&quot; as lastNameCheckOut and input &quot;16620&quot; as portalCode" time="0"/>
+  <testcase classname="Scenario: User make a purchase with 2 item" name="And User Click continue confirm to payment" time="0"/>
+  <testcase classname="Scenario: User make a purchase with 2 item" name="Then Page Display where item price is same with item total" time="0"/>
+  <testcase classname="Scenario: User make a purchase with 2 item" name="And Page Display the item total price after tax is same with total purchase" time="0"/>
+  <testcase classname="Scenario: User make a purchase with 2 item" name="And User Click Finish for Order Done" time="0"/>
+  <testcase classname="Scenario: User make a purchase with 2 item" name="Then THANK YOU FOR YOUR ORDER" time="0"/>
+  <testcase classname="Scenario: User make a purchase with 2 item" name="And User Click Burger Button" time="0"/>
+  <testcase classname="Scenario: User make a purchase with 2 item" name="And User Click Button Log Out" time="0"/>
+  <testcase classname="Scenario: User make a purchase with 2 item" name="Scenario: User make a purchase with 2 item" time="0.121"/>
+</testsuite>
