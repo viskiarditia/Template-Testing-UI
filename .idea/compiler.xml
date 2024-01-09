@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="BDDSauceDemo" />
         <module name="Template_BDD" />
+        <module name="Template" />
       </profile>
     </annotationProcessing>
   </component>
