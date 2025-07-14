@@ -136,9 +136,10 @@
             </plugin>
             <!-- optional, only if you want pretty reports -->
             <plugin>
-                <groupId>net.masterthought</groupId>
-                <artifactId>maven-cucumber-reporting</artifactId>
-                <version>5.8.5</version>
+                <!-- https://mvnrepository.com/artifact/net.masterthought/maven-cucumber-reporting -->
+                    <groupId>net.masterthought</groupId>
+                    <artifactId>maven-cucumber-reporting</artifactId>
+                    <version>5.9.0</version>
 
                 <executions>
                     <execution>
